@@ -4,7 +4,7 @@ import json
 from os import environ
 
 app = Flask(__name__, static_folder='staticFiles')
-inventory = None
+
 
 @app.route("/")
 def index():
